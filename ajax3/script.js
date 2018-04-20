@@ -7,7 +7,6 @@
                 showName(data.results[0])
             })
     })
-    $ rm -rf .git
     function change() {
         var promise = fetch('https://randomuser.me/api')
             .then(function (response) {
